@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jan 24, 2016 2:26:32 AM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="LocatorServer.dblayer.tables.Registrations" table="REGISTRATIONS">
+        <id name="contact" type="java.lang.String">
+            <column name="CONTACT" />
+            <generator class="assigned" />
+        </id>
+        <property name="mobilestamp" type="java.lang.String">
+            <column name="MOBILESTAMP" />
+        </property>
+    </class>
+</hibernate-mapping>
